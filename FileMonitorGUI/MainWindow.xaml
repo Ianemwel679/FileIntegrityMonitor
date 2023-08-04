@@ -1,0 +1,19 @@
+﻿<Window x:Class="FileMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileMonitor"
+        mc:Ignorable="d"
+        Title="File Monitor" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnLoadBaseline" Content="Load Baseline" HorizontalAlignment="Left" Margin="627,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,0.874" Height="26" Width="80"/>
+        <Label Content="Selected Baseline:" HorizontalAlignment="Left" Margin="36,46,0,0" VerticalAlignment="Top" Width="105" Height="26"/>
+        <Label x:Name="lblBaseline" Content="" HorizontalAlignment="Left" Margin="146,46,0,0" VerticalAlignment="Top" Width="450" Height="26"/>
+        <ListBox x:Name="lstPath" Width="500" Height="200" Margin="36,96,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="btnCheckFiles" Content="Verify Baseline" HorizontalAlignment="Left" Margin="627,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,0.874" Height="26" Width="80"/>
+        <Button x:Name="btnAddPath" Content="Add Path" HorizontalAlignment="Left" Margin="627,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,0.874" Height="26" Width="80"/>
+        <Button x:Name="btnCreateBaseline" Content="New Baseline" HorizontalAlignment="Left" Margin="627,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,0.874" Height="26" Width="80"/>
+
+    </Grid>
+</Window>
