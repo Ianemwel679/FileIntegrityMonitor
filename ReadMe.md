@@ -37,3 +37,18 @@ The baseline CSV file should be in the following format:
 path,hash
 C:\example\file1.txt,123456789abcdef
 C:\example\file2.txt,987654321abcdef
+
+
+## Important Note
+
+- The File Monitor with GUI script uses SHA256 as the hashing algorithm for calculating file hashes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Issues and Contributions
+
+If you encounter any issues with the script or have suggestions for improvements, please open an issue or submit a pull request.
+
+
